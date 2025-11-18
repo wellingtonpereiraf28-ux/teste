@@ -1,0 +1,69 @@
+/* Isto é um comentário em CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color:#f4f4f4;
+    
+}
+
+.barra {
+    background-color: #9BDD87;
+    height: 60px;
+    width: 100%;
+}
+
+.barra-baixo{
+    background-color: #9BDD87;
+    height: 20px;
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+}
+
+main h1 {
+    margin-top: -5px;
+    margin-bottom: 30px;
+    color:#2C892F;
+    font-family: Arial;
+
+}
+
+.botoes button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 12px;
+    border: none;
+    background-color: #1C7801;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flexbox;
+}
+
+.botoes button:hover {
+    background-color: #123b18;
+}
+
+.caixa-verde{
+    background-color: #D5EDCE ;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.botãoMinhasOcorrencias{
+    display: flex;
+
+}
